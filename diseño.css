@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b7e28aaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* elimina las margenes predeterminadas*/
+}
+
+.card {
+    background:#b8e28a;
+    /*fondo*/
+    width: 300px;
+    /*ancho de la tarjeta*/
+    padding: 20px;
+    /*espaciado para separar los contenidos*/
+    border-radius: 10px;
+    /*esquinas redondeadas*/
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* sombra ligera*/
+    text-align: center;
+    /*centar el texto dentro de la tarjeta*/
+    position: relative;
+}
+
+.foto-perfil {
+    width: 100px;
+    /*ancho de imagen*/
+    height: 100px;
+    /*alto de imagen*/
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    font-size: 1.5rem;
+    /*tamaño de fuente mas grande*/
+    margin: 5px 0;
+    /*espaciado superior y inferior*/
+}
+
+.profession {
+    font-size: 0.9rem;
+    /*un poco mas pequeño que el texto normal*/
+    color: #666;
+    /*cambio de color*/
+
+}
+
+.description {
+    font-size: 0.8rem;
+    /*cambia el texto un poco mas pequeño a lo normal*/
+    margin: 10px;
+    /*espaciado superior*/
+
+}
+
+.contact {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #c5ec9b;
+    color: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact:hover {
+    background: #4CAF50;
+    transform: scale(1.1);
+    /*cambio de color cuando el usuario pone el mause encima*/
+}
