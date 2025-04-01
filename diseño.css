@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     background-color: #b7e28aaf;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .card {
-    background:#b8e28a;
+    background: #b8e28a;
     /*fondo*/
     width: 300px;
     /*ancho de la tarjeta*/
@@ -22,7 +22,10 @@ body {
     /* sombra ligera*/
     text-align: center;
     /*centar el texto dentro de la tarjeta*/
+    border: 2px solid #ddd;
     position: relative;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 
 .foto-perfil {
@@ -63,17 +66,25 @@ body {
     display: block;
     width: 100%;
     padding: 10px;
-    background: #c5ec9b;
+    background: #9fdf5a;
     color: white;
-    border: 2px solid #ddd;
     border-radius: 5px;
     margin-top: 15px;
     cursor: pointer;
+    border: 2px solid #ddd;
     font-size: 1rem;
+    transition: all 0.3s ease;
 }
 
 .contact:hover {
     background: #4CAF50;
     transform: scale(1.1);
     /*cambio de color cuando el usuario pone el mause encima*/
+}
+
+.info {
+    display: block;
+    margin-top: 15px;
+    color: #666;
+    font-size: 1rem;
 }
